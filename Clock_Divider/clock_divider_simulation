@@ -1,0 +1,31 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity clock_divider is
+   port ( CLKin: in std_logic;
+          reset: in std_logic;
+          CLKout: out std_logic);
+end clock_divider;
+
+architecture arch of clock_divider is
+
+  signal counter: integer:= 0;
+  signal temp : std_logic := '1';
+  
+begin
+
+	process(CLKin,counter,reset)
+		begin
+			if(reset='0') then counter<=0; temp<='1';
+				 elsif(CLKin'event and CLKin='1') 
+					then counter <=counter+1;
+					if (counter = 500000000) then temp <= NOT temp; 
+					counter<=0;
+				  end if;
+			end if;
+			
+		CLKout <= temp;
+	end process;
+end arch;

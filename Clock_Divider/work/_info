@@ -1,0 +1,100 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.1
+Eclock_divider
+Z0 w1404928906
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\ppatel\Documents\SOC_FPGA_Codes\Clock_Divider
+Z4 8C:/Users/ppatel/Documents/SOC_FPGA_Codes/Clock_Divider/clock_divider.vhd
+Z5 FC:/Users/ppatel/Documents/SOC_FPGA_Codes/Clock_Divider/clock_divider.vhd
+l0
+L4
+V?`cEEeB<Tc?zCT:Q?_bI80
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1404928912.367000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/ppatel/Documents/SOC_FPGA_Codes/Clock_Divider/clock_divider.vhd|
+Z9 !s107 C:/Users/ppatel/Documents/SOC_FPGA_Codes/Clock_Divider/clock_divider.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 <S7GCfgEekWHi5S[MnzSh3
+!i10b 1
+Abehavioral
+R1
+R2
+DEx4 work 13 clock_divider 0 22 ?`cEEeB<Tc?zCT:Q?_bI80
+l15
+L12
+VHJkDO>mULVXjYG21In?b>1
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 DKTjnaG[1j0[90JD`ADNh2
+!i10b 1
+Aarch
+Z12 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z13 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+R1
+R2
+DEx4 work 13 clock_divider 0 22 ZcmCae7lPGWVHhZiCE^MP3
+l17
+L12
+VjWW]EhL?<CJf<DbTJmoQj3
+R6
+32
+R8
+R10
+R11
+w1404862004
+R9
+!s100 h?R;gOPY_0OM5GJKeTU383
+!s108 1404862440.975000
+!i10b 1
+Etb_clock_divider
+Z14 w1404928467
+Z15 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R13
+R12
+R1
+R2
+R3
+Z16 8C:/Users/ppatel/Documents/SOC_FPGA_Codes/Clock_Divider/tb_clock_divider.vhd
+Z17 FC:/Users/ppatel/Documents/SOC_FPGA_Codes/Clock_Divider/tb_clock_divider.vhd
+l0
+L6
+ViiO4U^iaD]niOTjHbTB2?0
+!s100 Ha2RjTABHZI4n?obf_[Am1
+R6
+32
+!i10b 1
+Z18 !s108 1404928912.672000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/ppatel/Documents/SOC_FPGA_Codes/Clock_Divider/tb_clock_divider.vhd|
+Z20 !s107 C:/Users/ppatel/Documents/SOC_FPGA_Codes/Clock_Divider/tb_clock_divider.vhd|
+R10
+R11
+Abehavior
+R15
+R13
+R12
+R1
+R2
+Z21 DEx4 work 16 tb_clock_divider 0 22 iiO4U^iaD]niOTjHbTB2?0
+l34
+L9
+Z22 V4?GTFL>T83YQhePb<kf;E0
+Z23 !s100 zei=FYidTeozC27L4lUzA1
+R6
+32
+!i10b 1
+R18
+R19
+R20
+R10
+R11
